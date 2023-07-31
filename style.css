@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: burlywood;
+}
+
+main{
+    background-color: aliceblue;
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+}
+
+main h2{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    width: 490px;
+    margin: auto;
+    
+}
+
+label {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+input[type="text"] {
+    width: 350px;
+    margin-right: 10px;
+}
+input[type="submit"] {
+    width: 50px;
+}
+.item-container{
+    width: 400px;
+    padding: 15px;
+    margin: auto;
+    border-bottom: 1px solid grey;
+    
+}
+.item-container img{
+    width: auto;
+    height: 100px;
+    object-fit: cover;
+}
+.item-description{
+    width: 200px;
+    float: right;
+}
+.clear-fix{
+    clear: both;
+}
+.value{
+    margin-bottom: 10px;
+    color: grey;
+}
